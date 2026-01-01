@@ -101,7 +101,7 @@ State transitions are handled cleanly using a finite state machine.
   - Ball reflection angle depends on hit position
   - Prevents jitter by correcting ball position after collision
 - **Brick collision**
-  - Determines collision axis using minimum overlap
+  - Determines collision axis using minimum overlap (reduces the jitter).
   - Applies damage based on brick health
   - Only one brick collision processed per frame
 
